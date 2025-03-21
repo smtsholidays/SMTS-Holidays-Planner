@@ -1,18 +1,56 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
-
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
-
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTS Holidays Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .social {
+            margin-top: 10px;
+        }
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">SMTS Holidays Planner</div>
+    <div class="content">
+        <h2>Welcome to SMTS Holidays Planner</h2>
+        <p>We offer the best travel experiences including domestic & international tours, honeymoon packages, adventure trips, pilgrimage tours, and family vacations.</p>
+        <div class="contact">
+            <p>Contact Us:</p>
+            <p>Phone: 8287973229</p>
+            <p>Email: travel.smts2025@gmail.com</p>
+        </div>
+        <div class="social">
+            <p>Follow us:</p>
+            <a href="https://facebook.com/SMTSHolidaysPlanner">Facebook</a>
+            <a href="https://instagram.com/smtsholidays">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
